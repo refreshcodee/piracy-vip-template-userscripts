@@ -65,7 +65,6 @@
     layout.innerHTML = `
          <input type="text" placeholder="Enter Discog ID" id="discogIdInput" name="discogIdInput"><br><br>
          <input type="text" placeholder="Enter Download Link" id="downloadLinkInput" name="downloadLinkInput"><br><br>
-         <br><br>
          <div style="display: flex; gap: 1rem;">
             <button class="ipsButton ipsButton_primary ipsButton_verySmall" onclick="clickGenerate()" type="button">Generate</button>
             <button class="ipsButton ipsButton_primary ipsButton_verySmall" onclick="clickCopy()" type="button">Copy</button>
