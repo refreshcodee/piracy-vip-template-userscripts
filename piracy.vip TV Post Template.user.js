@@ -41,7 +41,7 @@
                    <span style="font-size:24px;"><strong>${apiData.name} <span style="color:#f1c40f;">(${apiData.first_air_date.split("-")[0]})</span></strong></span>
                 </p>
                 <p style="text-align:center;">
-                   <span style="font-size:16px;">${apiData.first_air_date} | ${apiData.episode_run_time[0]}m | ${apiData.number_of_seasons} Seasons | <span style="color:#f1c40f;">★</span> ${apiData.vote_average}</span>
+                   <span style="font-size:16px;">${apiData.first_air_date} | ${apiData.number_of_seasons} Seasons | <span style="color:#f1c40f;">★</span> ${apiData.vote_average}</span>
                 </p>
                 <p>
                    <span style="font-size:24px;"><span style="color:#f1c40f;"><strong>Overview</strong></span></span>
