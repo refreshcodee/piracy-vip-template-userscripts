@@ -5,7 +5,7 @@
 // @description  coded by refresh
 // @author       refresh
 // @grant        none
-// @include      /https:\/\/piracy\.vip\/index\.php\?\/forum\/(23|26|28|29|30|31|32|33|34|35|42|43|80|81)\/&do=add/
+// @include      /https:\/\/piracy\.vip\/forum\/(23|26|28|29|30|31|32|33|34|35|42|43|80|81)\/\?do=add/
 // ==/UserScript==
 
 (function() {
@@ -88,7 +88,7 @@
     layout.innerHTML = `
          <input type="text" placeholder="Enter TMDB ID" id="tmdbIdInput" name="tmdbIdInput"><br><br>
          <input type="text" placeholder="Enter Download Link" id="downloadLinkInput" name="downloadLinkInput"><br><br>
-         <textarea placeholder="Enter MediaInfo" id="mediaInfoInput" name="mediaInfoInput" rows="1" cols="50"></textarea>
+         <textarea placeholder="Enter MediaInfo" id="mediaInfoInput" name="mediaInfoInput" rows="5" cols="50"></textarea>
          <br><br>
          <div style="display: flex; gap: 1rem;">
             <button class="ipsButton ipsButton_primary ipsButton_verySmall" onclick="clickGenerate()" type="button">Generate</button>
