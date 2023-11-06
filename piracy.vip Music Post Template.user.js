@@ -5,7 +5,7 @@
 // @description  coded by refresh
 // @author       refresh
 // @grant        none
-// @include      /https:\/\/piracy\.vip\/index\.php\?\/forum\/(77|78)\/&do=add/
+// @include      /https:\/\/piracy\.vip\/forum\/(77|78)\/\?do=add/
 // ==/UserScript==
 
 (function() {
@@ -63,7 +63,7 @@
 
     let layout = document.createElement('div');
     layout.innerHTML = `
-         <input type="text" placeholder="Enter Discog ID" id="discogIdInput" name="discogIdInput"><br><br>
+         <input type="text" placeholder="Enter Discog Release ID" id="discogIdInput" name="discogIdInput"><br><br>
          <input type="text" placeholder="Enter Download Link" id="downloadLinkInput" name="downloadLinkInput"><br><br>
          <div style="display: flex; gap: 1rem;">
             <button class="ipsButton ipsButton_primary ipsButton_verySmall" onclick="clickGenerate()" type="button">Generate</button>
